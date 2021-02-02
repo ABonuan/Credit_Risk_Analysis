@@ -12,7 +12,7 @@ The purpose of this analysis is to use different techniques and create, train & 
 - Recall Score
     - High Risk: 0.59
     - Low Risk: 0.67\
-![alt text]()
+![alt text](https://github.com/ABonuan/Credit_Risk_Analysis/blob/main/Resources/Random_Oversampling_rep.png?raw=True)
 
 **Oversampling using SMOTE**
 - Balanced Accuracy Score: 0.630
@@ -22,7 +22,7 @@ The purpose of this analysis is to use different techniques and create, train & 
 - Recall Score
     - High Risk: 0.62
     - Low Risk: 0.64\
-![alt text]()
+![alt text](https://github.com/ABonuan/Credit_Risk_Analysis/blob/main/Resources/SMOTE_Oversampling_rep.png?raw=True)
 
 **Undersampling using ClusterCentroids**
 - Balanced Accuracy Score: 0.523
@@ -32,7 +32,7 @@ The purpose of this analysis is to use different techniques and create, train & 
 - Recall Score
     - High Risk: 0.64
     - Low Risk: 0.40\
-![alt text]()
+![alt text](https://github.com/ABonuan/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids_Undersampling_rep.png?raw=True)
 
 **Combination of Over\- and Undersampling using SMOTEENN**
 - Balanced Accuracy Score: 0.622
@@ -42,7 +42,7 @@ The purpose of this analysis is to use different techniques and create, train & 
 - Recall Score
     - High Risk: 0.71
     - Low Risk: 0.53\
-![alt text]()
+![alt text](https://github.com/ABonuan/Credit_Risk_Analysis/blob/main/Resources/SMOTEEN_Combo_rep.png?raw=True)
 
 **Ensemble Learning using BalancedRandomForestClassifier**
 - Balanced Accuracy Score: 0.788
@@ -52,7 +52,7 @@ The purpose of this analysis is to use different techniques and create, train & 
 - Recall Score
     - High Risk: 0.67
     - Low Risk: 0.91\
-![alt text]()
+![alt text](https://github.com/ABonuan/Credit_Risk_Analysis/blob/main/Resources/Ensemble_BalancedRandomForestClassifier_rep.png?raw=True)
 
 **Ensemble Learning using EasyEnsembleClassifier**
 - Balanced Accuracy Score: 0.925
@@ -62,7 +62,7 @@ The purpose of this analysis is to use different techniques and create, train & 
 - Recall Score
     - High Risk: 0.91
     - Low Risk: 0.94\
-![alt text]()
+![alt text](https://github.com/ABonuan/Credit_Risk_Analysis/blob/main/Resources/Ensemble_EasyEnsembleClassifier_rep.png?raw=True)
 
 ## Summary
 The oversampling models achieved about a 60% accuracy score, the undersampling model achieved only about 50%, and a combination of over- & undersampling achieved 60%.  Ensemble learning models scored higher in accuracy with the BalancedRandomClassifier at about 80% and the EasyEnsembleClassifier at a high 90%.  The EasyEnsembleClassifier model has the highest percentage in which it predicts outcomes correctly from the test dataset.
